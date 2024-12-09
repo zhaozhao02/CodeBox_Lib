@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000857] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.001342] (-) EventReactorShutdown: {}

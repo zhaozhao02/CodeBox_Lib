@@ -1,0 +1,4 @@
+string file_path  # 请求参数：保存图片的路径
+---
+bool success      # 响应参数：保存是否成功
+string message    # 响应参数：返回的信息（如成功或错误信息）

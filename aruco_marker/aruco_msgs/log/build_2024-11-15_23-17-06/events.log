@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000979] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.001321] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.015374] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'cmake'}
+[0.016074] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs'], 'cwd': '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khadas'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/khadas'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9af85889c1a7570451ad295900001a1c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khadas'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1421024235594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khadas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2277,unix/ubuntu:/tmp/.ICE-unix/2277'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/503abac1_c2fe_4dff_8d8c_ba9ba21871a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9af85889c1a7570451ad295900001a1c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('JETSON_P_NUMBER', 'p3767-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098987] (-) TimerEvent: {}
+[0.120959] (aruco_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199186] (-) TimerEvent: {}
+[0.225478] (aruco_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.246171] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299316] (-) TimerEvent: {}
+[0.386030] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399408] (-) TimerEvent: {}
+[0.411623] (aruco_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.412555] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.413942] (aruco_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.424693] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499581] (-) TimerEvent: {}
+[0.595000] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.599669] (-) TimerEvent: {}
+[0.620425] (aruco_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.621437] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.623059] (aruco_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.630210] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.699840] (-) TimerEvent: {}
+[0.800482] (-) TimerEvent: {}
+[0.901248] (-) TimerEvent: {}
+[0.939989] (aruco_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001431] (-) TimerEvent: {}
+[1.069802] (aruco_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.101537] (-) TimerEvent: {}
+[1.137661] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.145358] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.161558] (aruco_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.201634] (-) TimerEvent: {}
+[1.233461] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.290163] (aruco_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.301782] (-) TimerEvent: {}
+[1.402324] (-) TimerEvent: {}
+[1.503091] (-) TimerEvent: {}
+[1.603734] (-) TimerEvent: {}
+[1.704469] (-) TimerEvent: {}
+[1.805369] (-) TimerEvent: {}
+[1.891644] (aruco_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.905460] (-) TimerEvent: {}
+[2.006088] (-) TimerEvent: {}
+[2.106855] (-) TimerEvent: {}
+[2.207749] (-) TimerEvent: {}
+[2.308657] (-) TimerEvent: {}
+[2.387624] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.408732] (-) TimerEvent: {}
+[2.509343] (-) TimerEvent: {}
+[2.610421] (-) TimerEvent: {}
+[2.711207] (-) TimerEvent: {}
+[2.811914] (-) TimerEvent: {}
+[2.912552] (-) TimerEvent: {}
+[3.013290] (-) TimerEvent: {}
+[3.042518] (aruco_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.092438] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.096526] (aruco_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.113423] (-) TimerEvent: {}
+[3.156585] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.157354] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.157670] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.157985] (aruco_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.200540] (aruco_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.213508] (-) TimerEvent: {}
+[3.314100] (-) TimerEvent: {}
+[3.346980] (aruco_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.411855] (aruco_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.414152] (-) TimerEvent: {}
+[3.417307] (aruco_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs\n'}
+[3.432616] (aruco_msgs) CommandEnded: {'returncode': 0}
+[3.434021] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'build'}
+[3.436296] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs', '--', '-j8', '-l8'], 'cwd': '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khadas'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/khadas'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9af85889c1a7570451ad295900001a1c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khadas'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1421024235594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khadas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2277,unix/ubuntu:/tmp/.ICE-unix/2277'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/503abac1_c2fe_4dff_8d8c_ba9ba21871a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9af85889c1a7570451ad295900001a1c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('JETSON_P_NUMBER', 'p3767-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.514334] (-) TimerEvent: {}
+[3.519080] (aruco_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.538676] (aruco_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.557990] (aruco_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_aruco_msgs\n'}
+[3.614480] (-) TimerEvent: {}
+[3.715085] (-) TimerEvent: {}
+[3.815694] (-) TimerEvent: {}
+[3.916293] (-) TimerEvent: {}
+[4.016911] (-) TimerEvent: {}
+[4.060588] (aruco_msgs) StdoutLine: {'line': b'[  9%] Built target aruco_msgs__cpp\n'}
+[4.061074] (aruco_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_c.dir/rosidl_generator_c/aruco_msgs/msg/detail/aruco_pose__functions.c.o\x1b[0m\n'}
+[4.077232] (aruco_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.079311] (aruco_msgs) StdoutLine: {'line': b'creating aruco_msgs.egg-info\n'}
+[4.079765] (aruco_msgs) StdoutLine: {'line': b'writing aruco_msgs.egg-info/PKG-INFO\n'}
+[4.080235] (aruco_msgs) StdoutLine: {'line': b'writing dependency_links to aruco_msgs.egg-info/dependency_links.txt\n'}
+[4.080533] (aruco_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.080805] (aruco_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.080955] (aruco_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.081128] (aruco_msgs) StdoutLine: {'line': b'writing top-level names to aruco_msgs.egg-info/top_level.txt\n'}
+[4.081266] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[4.085793] (aruco_msgs) StdoutLine: {'line': b"reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[4.086891] (aruco_msgs) StdoutLine: {'line': b"writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'\n"}
+[4.116998] (-) TimerEvent: {}
+[4.159629] (aruco_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaruco_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.174877] (aruco_msgs) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_aruco_msgs_egg\n'}
+[4.217161] (-) TimerEvent: {}
+[4.225459] (aruco_msgs) StdoutLine: {'line': b'[ 22%] Built target aruco_msgs__rosidl_generator_c\n'}
+[4.245436] (aruco_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.246070] (aruco_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.246276] (aruco_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.317354] (-) TimerEvent: {}
+[4.418142] (-) TimerEvent: {}
+[4.518720] (-) TimerEvent: {}
+[4.562362] (aruco_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_msgs/msg/aruco_pose__type_support.cpp.o\x1b[0m\n'}
+[4.598341] (aruco_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_msgs/msg/detail/aruco_pose__type_support.cpp.o\x1b[0m\n'}
+[4.618305] (aruco_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_msgs/msg/detail/dds_fastrtps/aruco_pose__type_support.cpp.o\x1b[0m\n'}
+[4.619001] (-) TimerEvent: {}
+[4.719507] (-) TimerEvent: {}
+[4.727551] (aruco_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_msgs/msg/aruco_pose__type_support.cpp.o\x1b[0m\n'}
+[4.771922] (aruco_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/aruco_pose__type_support.c.o\x1b[0m\n'}
+[4.789737] (aruco_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.811725] (aruco_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/aruco_pose__type_support_c.cpp.o\x1b[0m\n'}
+[4.819716] (-) TimerEvent: {}
+[4.841327] (aruco_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libaruco_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.866379] (aruco_msgs) StdoutLine: {'line': b'[ 58%] Built target aruco_msgs__rosidl_typesupport_c\n'}
+[4.901077] (aruco_msgs) StdoutLine: {'line': b'[ 58%] Built target aruco_msgs__rosidl_typesupport_introspection_c\n'}
+[4.919873] (-) TimerEvent: {}
+[5.020560] (-) TimerEvent: {}
+[5.121236] (-) TimerEvent: {}
+[5.144243] (aruco_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.220090] (aruco_msgs) StdoutLine: {'line': b'[ 61%] Built target aruco_msgs__rosidl_typesupport_cpp\n'}
+[5.221311] (-) TimerEvent: {}
+[5.321856] (-) TimerEvent: {}
+[5.421280] (aruco_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.422001] (-) TimerEvent: {}
+[5.457304] (aruco_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.497714] (aruco_msgs) StdoutLine: {'line': b'[ 67%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.522205] (-) TimerEvent: {}
+[5.539648] (aruco_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaruco_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.604367] (aruco_msgs) StdoutLine: {'line': b'[ 70%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.622376] (-) TimerEvent: {}
+[5.688169] (aruco_msgs) StdoutLine: {'line': b'[ 70%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.722527] (-) TimerEvent: {}
+[5.728156] (aruco_msgs) StdoutLine: {'line': b'[ 70%] Built target aruco_msgs\n'}
+[5.770175] (aruco_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.822675] (-) TimerEvent: {}
+[5.923303] (-) TimerEvent: {}
+[6.023814] (-) TimerEvent: {}
+[6.124404] (-) TimerEvent: {}
+[6.225011] (-) TimerEvent: {}
+[6.325529] (-) TimerEvent: {}
+[6.406239] (aruco_msgs) StdoutLine: {'line': b'[ 74%] Built target aruco_msgs__py\n'}
+[6.425722] (-) TimerEvent: {}
+[6.445893] (aruco_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_generator_py.dir/rosidl_generator_py/aruco_msgs/msg/_aruco_pose_s.c.o\x1b[0m\n'}
+[6.525884] (-) TimerEvent: {}
+[6.626590] (-) TimerEvent: {}
+[6.657656] (aruco_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/libaruco_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.726762] (-) TimerEvent: {}
+[6.736203] (aruco_msgs) StdoutLine: {'line': b'[ 80%] Built target aruco_msgs__rosidl_generator_py\n'}
+[6.776208] (aruco_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.776691] (aruco_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.776874] (aruco_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/aruco_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.826929] (-) TimerEvent: {}
+[6.927590] (-) TimerEvent: {}
+[6.967677] (aruco_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.968203] (aruco_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[6.968483] (aruco_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[7.027766] (-) TimerEvent: {}
+[7.040726] (aruco_msgs) StdoutLine: {'line': b'[100%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[7.041187] (aruco_msgs) StdoutLine: {'line': b'[100%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.043699] (aruco_msgs) StdoutLine: {'line': b'[100%] Built target aruco_msgs__rosidl_typesupport_c__pyext\n'}
+[7.069975] (aruco_msgs) CommandEnded: {'returncode': 0}
+[7.127907] (-) TimerEvent: {}
+[7.181615] (aruco_msgs) JobProgress: {'identifier': 'aruco_msgs', 'progress': 'install'}
+[7.200510] (aruco_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs'], 'cwd': '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'khadas'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/khadas'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2277'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9af85889c1a7570451ad295900001a1c'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'khadas'), ('JETSON_MODULE', 'NVIDIA Jetson Orin NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1421024235594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'khadas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2277,unix/ubuntu:/tmp/.ICE-unix/2277'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/503abac1_c2fe_4dff_8d8c_ba9ba21871a7'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/build/aruco_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9af85889c1a7570451ad295900001a1c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('JETSON_P_NUMBER', 'p3767-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.218663] (aruco_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.219688] (aruco_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.220365] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs\n'}
+[7.228040] (-) TimerEvent: {}
+[7.237832] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/aruco_pose.h\n'}
+[7.254973] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__functions.h\n'}
+[7.271094] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__struct.h\n'}
+[7.287304] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__type_support.h\n'}
+[7.304824] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.321576] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh\n'}
+[7.328122] (-) TimerEvent: {}
+[7.340370] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv\n'}
+[7.358271] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[7.375049] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.391720] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__rosidl_typesupport_introspection_c.h\n'}
+[7.408926] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.427787] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/aruco_pose.hpp\n'}
+[7.428127] (-) TimerEvent: {}
+[7.445468] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__builder.hpp\n'}
+[7.463020] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__struct.hpp\n'}
+[7.480260] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__traits.hpp\n'}
+[7.499258] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.516280] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.528294] (-) TimerEvent: {}
+[7.534756] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/aruco_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.552860] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh\n'}
+[7.570653] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv\n'}
+[7.591823] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.608935] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.626970] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.628428] (-) TimerEvent: {}
+[7.644872] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.664744] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py\n'}
+[7.681683] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.699370] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.716640] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.728612] (-) TimerEvent: {}
+[7.734995] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.751773] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.769565] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.786616] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so\n'}
+[7.804435] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py\n'}
+[7.820697] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_aruco_pose.py\n'}
+[7.828747] (-) TimerEvent: {}
+[7.837371] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_aruco_pose_s.c\n'}
+[7.856199] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.857092] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.858055] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.858829] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/msg/ArucoPose.idl\n'}
+[7.876319] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/msg/ArucoPose.msg\n'}
+[7.894417] (aruco_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/msg/ArucoPose.msg\n'}
+[7.895022] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs\n'}
+[7.913145] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs\n'}
+[7.928881] (-) TimerEvent: {}
+[7.931943] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh\n'}
+[7.950393] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv\n'}
+[7.968222] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/path.sh\n'}
+[7.985864] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/environment/path.dsv\n'}
+[8.003585] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/local_setup.bash\n'}
+[8.021404] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/local_setup.sh\n'}
+[8.029017] (-) TimerEvent: {}
+[8.040289] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/local_setup.zsh\n'}
+[8.063322] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/local_setup.dsv\n'}
+[8.081363] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/package.dsv\n'}
+[8.099281] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs\n'}
+[8.117022] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.129107] (-) TimerEvent: {}
+[8.135856] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.153920] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.171113] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.187572] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.204482] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.222938] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.229206] (-) TimerEvent: {}
+[8.241094] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake\n'}
+[8.260458] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake\n'}
+[8.277755] (aruco_msgs) StdoutLine: {'line': b'-- Symlinking: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/package.xml\n'}
+[8.296234] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so\n'}
+[8.297383] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so" to ""\n'}
+[8.297737] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.298721] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.299049] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.299930] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.300228] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so\n'}
+[8.301121] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.301436] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.302453] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.302752] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.304077] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.304395] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so\n'}
+[8.305252] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.329307] (-) TimerEvent: {}
+[8.375773] (aruco_msgs) StdoutLine: {'line': b"Listing '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...\n"}
+[8.376196] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py'...\n"}
+[8.376483] (aruco_msgs) StdoutLine: {'line': b"Listing '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...\n"}
+[8.376739] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py'...\n"}
+[8.376983] (aruco_msgs) StdoutLine: {'line': b"Compiling '/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_aruco_pose.py'...\n"}
+[8.386796] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so\n'}
+[8.388025] (aruco_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so" to ""\n'}
+[8.388354] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake\n'}
+[8.388907] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.389488] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.390097] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.390688] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.391223] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.391796] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.392329] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.392884] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.393462] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.394044] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.394615] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.395148] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.395700] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.396229] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.396790] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.397337] (aruco_msgs) StdoutLine: {'line': b'-- Installing: /home/khadas/roaf3d_ws_loop/src/aruco_marker/aruco_msgs/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.404261] (aruco_msgs) CommandEnded: {'returncode': 0}
+[8.430074] (-) TimerEvent: {}
+[8.530832] (-) TimerEvent: {}
+[8.579027] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 0}
+[8.581297] (-) EventReactorShutdown: {}

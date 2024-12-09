@@ -1,0 +1,19 @@
+[1.376s] Invoking command in '/home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control': PYTHONPATH=/home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control/build --no-deps symlink_data
+[1.931s] running develop
+[1.931s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.931s]   warnings.warn(
+[2.260s] running egg_info
+[2.260s] writing pwm_control.egg-info/PKG-INFO
+[2.261s] writing dependency_links to pwm_control.egg-info/dependency_links.txt
+[2.261s] writing entry points to pwm_control.egg-info/entry_points.txt
+[2.262s] writing requirements to pwm_control.egg-info/requires.txt
+[2.262s] writing top-level names to pwm_control.egg-info/top_level.txt
+[2.263s] reading manifest file 'pwm_control.egg-info/SOURCES.txt'
+[2.265s] writing manifest file 'pwm_control.egg-info/SOURCES.txt'
+[2.268s] running build_ext
+[2.269s] Creating /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/python3.10/site-packages/pwm-control.egg-link (link to .)
+[2.271s] Installing pwm_node script to /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/pwm_control
+[2.272s] 
+[2.272s] Installed /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control
+[2.273s] running symlink_data
+[2.350s] Invoked command in '/home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control' returned '0': PYTHONPATH=/home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control/build --no-deps symlink_data

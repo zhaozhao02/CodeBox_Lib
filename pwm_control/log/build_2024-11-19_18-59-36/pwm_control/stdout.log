@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating pwm_control.egg-info
+writing pwm_control.egg-info/PKG-INFO
+writing dependency_links to pwm_control.egg-info/dependency_links.txt
+writing entry points to pwm_control.egg-info/entry_points.txt
+writing requirements to pwm_control.egg-info/requires.txt
+writing top-level names to pwm_control.egg-info/top_level.txt
+writing manifest file 'pwm_control.egg-info/SOURCES.txt'
+reading manifest file 'pwm_control.egg-info/SOURCES.txt'
+writing manifest file 'pwm_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/python3.10/site-packages/pwm-control.egg-link (link to .)
+Installing pwm_node script to /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/pwm_control
+
+Installed /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control
+running symlink_data
+creating /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/share/ament_index
+creating /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/share/ament_index/resource_index
+creating /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/share/ament_index/resource_index/packages
+symbolically linking /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control/resource/pwm_control -> /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/share/ament_index/resource_index/packages
+symbolically linking /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control/package.xml -> /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/share/pwm_control

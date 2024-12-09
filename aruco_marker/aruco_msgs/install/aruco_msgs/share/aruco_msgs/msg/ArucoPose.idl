@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aruco_msgs/msg/ArucoPose.msg
+// generated code does not contain a copyright notice
+
+
+module aruco_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "ArucoPose.msg")
+    struct ArucoPose {
+      int32 mark_id;
+
+      double px;
+
+      double py;
+
+      double pz;
+
+      double ox;
+
+      double oy;
+
+      double oz;
+
+      double ow;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[console_scripts]
+pwm_node = pwm_control.pwm_node:main
+

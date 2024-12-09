@@ -1,0 +1,18 @@
+Dictionary: 16
+Detector_Params: "/home/khadas/roaf3d_ws_loop/store/calibration/detector_params.yml"
+
+123:
+    calibration_file: "/home/khadas/roaf3d_ws_loop/store/calibration/KS2A123-2.0.yml"
+    marker_length_m: 0.05
+
+121:
+    calibration_file: "/home/khadas/roaf3d_ws_loop/store/calibration/KS2A123-2.0.yml"
+    marker_length_m: 0.02
+    
+#105:
+#    calibration_file: "/home/khadas/roaf3d_ws_loop/store/calibration/KS2A123-2.0.yml"
+#    marker_length_m: 0.07
+
+136:
+    calibration_file: "/home/khadas/roaf3d_ws_loop/store/calibration/KS2A123-2.0.yml"
+    marker_length_m: 0.02

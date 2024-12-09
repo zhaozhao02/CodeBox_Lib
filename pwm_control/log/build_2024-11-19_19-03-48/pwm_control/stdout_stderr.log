@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing pwm_control.egg-info/PKG-INFO
+writing dependency_links to pwm_control.egg-info/dependency_links.txt
+writing entry points to pwm_control.egg-info/entry_points.txt
+writing requirements to pwm_control.egg-info/requires.txt
+writing top-level names to pwm_control.egg-info/top_level.txt
+reading manifest file 'pwm_control.egg-info/SOURCES.txt'
+writing manifest file 'pwm_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/python3.10/site-packages/pwm-control.egg-link (link to .)
+Installing pwm_node script to /home/khadas/roaf3d_ws_loop/src/pwm_control/install/pwm_control/lib/pwm_control
+
+Installed /home/khadas/roaf3d_ws_loop/src/pwm_control/build/pwm_control
+running symlink_data
